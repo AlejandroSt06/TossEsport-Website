@@ -2,9 +2,9 @@ import CategoryButton from "./CategoryButton"
 function Category(){
 
     return (
-<div class="d-flex flex-column  p-4 pt-0  pb-md-5  category-group">
-<h2 className ="mt-2">Category</h2>
-  <div class="list-group">
+<div class="d-flex flex-column  p-4 pt-0  pb-md-5 my-4 category-group">
+<h2 className ="mb-0">Category</h2>
+  <div class="list-group mt-4">
   <CategoryButton />
   <CategoryButton />
   <CategoryButton />

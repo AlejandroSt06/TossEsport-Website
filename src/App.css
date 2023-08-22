@@ -82,7 +82,7 @@ color: var(--main-text-color);
 }
 .hero-image{
   border-radius: 50%;
-  margin-top: 75px;
+  margin-top: 35px;
 }
 .hero-title{
   font-size: 44px;
@@ -111,9 +111,10 @@ border-color: #212326;
 .video-games{
 
   display: flex;
+
 }
 .card{
-  border: 0;
+ 
   min-width: 270px;
 }
 .card-body{
@@ -125,12 +126,13 @@ border-color: #212326;
 
 .category-group-item{
 min-width: 430px;
-
+border: 1px solid var(--bg-color);
 color: #95969a;
-border: none;
+
 }
 .category-group{
   max-width: 910px;
+ 
 }
 @media  screen and (max-width:800px) {
   .category-group-item{
@@ -153,13 +155,35 @@ border: none;
 .list-group-item-action:focus, .list-group-item-action:hover{
   background-color: #95969a;
 }
-.footer-text{
+.f-heading,.footer-text,h2,h3{
 
-  color: #212326;
+  color: var(--main-text-color);
   text-decoration: none;
+}
+
+.background-dark{
+  background-color: var(--back-header);
+  padding: 25px;
+  
 }
 .footer-text:hover{
 
   color: var(--secondary-color);
  
 }
+
+.sign-up-btn{
+  background-color: #FF643D;
+
+}
+.sign-up-btn:hover{
+  background-color: #FF643D;
+
+}
+.form-control-dark{
+ border: 1px solid var(--main-text-color);
+ margin: 0px auto;
+}
+.form-control-dark:focus{
+  border: 1px solid var(--main-text-color);
+ }

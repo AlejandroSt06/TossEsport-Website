@@ -10,9 +10,12 @@ function App() {
 <>
    <Header />
    <Hero />
-   <CardSection/>
+   <div className='background-dark'>
+   <CardSection/>  
    <Features />
+   </div>
    <Footer />
+   
    </>
   )
 }
