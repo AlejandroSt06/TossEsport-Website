@@ -1,0 +1,27 @@
+const [
+    {
+      "nome": "The Last of Us Part II",
+      "genere": "Azione-avventura",
+      "piattaforme": ["PlayStation 4", "PlayStation 5"],
+      "anno_di_uscita": 2020
+    },
+    {
+      "nome": "Doom Eternal",
+      "genere": "Sparatutto in prima persona",
+      "piattaforme": ["PC", "PlayStation 4", "Xbox One"],
+      "anno_di_uscita": 2020
+    },
+    {
+      "nome": "Animal Crossing: New Horizons",
+      "genere": "Simulazione di vita",
+      "piattaforme": ["Nintendo Switch"],
+      "anno_di_uscita": 2020
+    },
+    {
+      "nome": "Cyberpunk 2077",
+      "genere": "RPG d'azione",
+      "piattaforme": ["PC", "PlayStation 4", "Xbox One"],
+      "anno_di_uscita": 2020
+    }
+  ]
+  

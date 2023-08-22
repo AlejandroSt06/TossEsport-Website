@@ -1,0 +1,165 @@
+
+body{
+  color: #95969a;
+  background-color: var(--bg-color);
+}
+:root{
+  --main-text-color: #95969a;
+  --back-header:#212326;
+  --bg-color: #424954;
+  --secondary-color: #ff643d;
+  --bs-border-color-translucent:var(--main-text-color);
+  --bs-body-bg:var(--back-header);
+  --bs-list-group-border-color:var(--bg-color);
+  --bs-list-group-action-hover-bg: var(--main-text-color);
+ 
+  
+}
+.top-header{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+background-color: var(--back-header);
+  position: fixed ;
+  backdrop-filter: blur(8px) ;
+
+  width: 100%;
+
+}
+.top-header-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #FF643D;
+
+}
+
+h2{
+  color: #212326;
+  font-family: 'Koulen', cursive;
+
+}
+h3{
+  color: #212326;
+  font-family: 'Koulen', cursive;
+}
+.top-header-link h2{
+  margin: 0;
+  font-family: 'Koulen', cursive;
+  font-size: 24px;
+}
+.top-header-nav ul{
+
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 3px;
+}
+.top-header-nav ul li a:hover{
+
+  color: #FF643D
+}
+.top-header-nav ul li,.top-header-nav ul li a{
+
+list-style-type: none;
+text-decoration: none;
+font-weight: 600;
+color: var(--main-text-color);
+
+}
+
+.hero-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.hero-image{
+  border-radius: 50%;
+  margin-top: 75px;
+}
+.hero-title{
+  font-size: 44px;
+  margin:20px 0;
+  color: #FF643D;
+  font-family: 'Koulen', cursive;
+  }
+.hero-text{
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+.form-control{
+  width:250px;
+  color: #95969a;
+  border: 1px solid var(--back-header);
+  outline: 0;
+}
+.form-control:focus{
+  box-shadow: none;
+  border: 1px solid var(#212326);
+border-color: #212326;
+  color: var(--main-text-color);
+}
+
+.video-games{
+
+  display: flex;
+}
+.card{
+  border: 0;
+  min-width: 270px;
+}
+.card-body{
+  background-color: #212326;
+  color: #95969a;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.category-group-item{
+min-width: 430px;
+
+color: #95969a;
+border: none;
+}
+.category-group{
+  max-width: 910px;
+}
+@media  screen and (max-width:800px) {
+  .category-group-item{
+    min-width: 0;
+
+    }
+
+}
+
+@media  screen and (max-width:1200px) {
+
+    .category-group{
+      width: 85%;
+      align-self: center;
+      }
+}
+.category-group-item:checked{
+  background-color: #95969a;
+}
+.list-group-item-action:focus, .list-group-item-action:hover{
+  background-color: #95969a;
+}
+.footer-text{
+
+  color: #212326;
+  text-decoration: none;
+}
+.footer-text:hover{
+
+  color: var(--secondary-color);
+ 
+}
