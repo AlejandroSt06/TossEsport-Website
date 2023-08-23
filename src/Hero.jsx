@@ -6,7 +6,7 @@ function Hero(){
     return (
 
 <section className="hero-section">
-<img className="hero-image" src = "../public/logoShark.png"/>
+<img className="hero-image" src = "/logoShark.png"/>
 <h1 className="hero-title">TossEsports</h1>
 <p className="hero-text mx-2">
 Adéntrate en el mundo de los videojuegos y convierte tu realidad en una épica aventura interactiva!

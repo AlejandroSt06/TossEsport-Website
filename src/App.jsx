@@ -1,23 +1,18 @@
 
-import './App.css'
-import Header from './Header'
-import Hero from './Hero'
-import CardSection from './Card-section/CardSection'
-import Footer from './Footer/Footer'
-import Features from './Features/Features'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage/home';
+import Events from './Pages/Events/Events';
+
 function App() {
-  return(
-<>
-   <Header />
-   <Hero />
-   <div className='background-dark'>
-   <CardSection/>  
-   <Features />
-   </div>
-   <Footer />
-   
-   </>
-  )
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/eventos" element={<Events />} />
+       
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
