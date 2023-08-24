@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage/home';
 import Events from './Pages/Events/Events';
 
 function App() {
+  console.log("App rendered")
   return (
     <BrowserRouter>
       <Routes>
