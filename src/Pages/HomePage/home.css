@@ -9,7 +9,6 @@
     --bs-list-group-border-color:var(--bg-color);
     --bs-list-group-action-hover-bg: var(--main-text-color);
     --bs-border-width:2px;
-    
   }
 
 .home-hero-btn-primary{
@@ -33,7 +32,9 @@
     outline: 2px solid var(--secondary-color);
     box-shadow: 2px 3px 10px -2px var(--secondary-color);
   }
-  
+  .home-hero-btn-primary:active{
+border-color: none;
+  }
   .home-hero-btn-primary::before {
     content: "";
     position: absolute;
@@ -51,8 +52,26 @@
     width: 200%;
   }
 
-  .home-hero-image{
+  .home-hero-image,.event-calendar-image{
     border-radius: 10px;
     height: 350px;
+    
+  }
+  @media screen and (max-width:900px) {
+    
+    .home-hero-image{
+      border-radius: 10px;
+      height: 200px;
+      max-width: 300px;
+    
+    }
+
+  }
+  .home-hero-section{
+
+    margin-top: 90px;
+  }
+  .event-calendar{
+    background-color: var(--back-header);
     
   }

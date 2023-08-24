@@ -4,29 +4,35 @@ import React from 'react'
 function Header(){
 
     const imgBackURL = "https://img.freepik.com/free-psd/technology-video-game-objects-3d-illustration_1419-2659.jpg?size=626&ext=jpg&uid=R110461870&semt=ais"
-return( 
+  const logoImg = "./logoShark.png"
+    return( 
     <>
-<header class="position-fixed w-100 z-1 p-3 text-bg-dark">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="/" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="/eventos" class="nav-link px-2 text-white">Eventos</a></li>
-          <li><a href="#" class="nav-link px-2 text-secondary">Pricing</a></li>
-          <li><a href="#" class="nav-link px-2 text-secondary">FAQs</a></li>
-          <li><a href="#" class="nav-link px-2 text-secondary">About</a></li>
+<header className="position-fixed w-100 z-1 pt-2 py-lg-2 pb-0 text-bg-dark">
+    <div className="container">
+      <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+<div className='col-0 col-lg-1 ms-3'></div>
+    <a href = "/" className='header-logo ms-1 px-4'>
+<img src ={logoImg} ></img>
+<h2>Toss Esports</h2>
+    </a>
+    <div className='col-0 col-lg-1'></div>
+        <ul className=" nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 top-header-nav">
+          <li><a href="/" className="nav-link px-2 ">Home</a></li>
+          <li><a href="/eventos" className="nav-link px-2 ">Eventos</a></li>
+          <li><a href="#" className="nav-link px-2 text-secondary">Pricing</a></li>
+          <li><a href="#" className="nav-link px-2 text-secondary">FAQs</a></li>
+          <li><a href="#" className="nav-link px-2 text-secondary">About</a></li>
         </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" />
+        <div className='col-0 col-lg-auto'></div>
+        <form className="col-12 d-none d-xxl-flex  col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" className="form-control form-control-dark" placeholder="Search..." aria-label="Search" />
         </form>
 
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn sign-up-btn">Sign-up</button>
+        <div className="text-end col-lg-auto d-none d-lg-flex">
+          <button type="button" className="btn login-btn me-2">Login</button>
+          <button type="button" className="btn sign-up-btn">Sign-up</button>
         </div>
+        
       </div>
     </div>
   </header>

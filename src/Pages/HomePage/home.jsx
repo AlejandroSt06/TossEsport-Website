@@ -10,8 +10,9 @@ function HomePage(){
         <>
         <Header/>
         <HomeHero />
+        <div className='background-dark'>
         <EventCalendar/>
-        </>
+        </div>        </>
     )
 }
 export default HomePage

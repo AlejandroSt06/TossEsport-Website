@@ -8,8 +8,8 @@ function CardSection() {
         
                 <Category />
            <div className="container">
-            <h2 className ="px-5 my-4">VideoGames</h2>
-                <div class="row row-cols-md--1 row-cols-lg-2 row-cols-xxl-3 g-4 mb-5 px-5 ">
+            <h2 className ="px-2 px-lg-5 my-4 text-center text-lg-start">Events</h2>
+                <div class="row row-cols-md--1 row-cols-lg-2 row-cols-xxl-3 g-4 mb-5 px-2 px-md-5  ">
 
                     <VgCard />
                     <VgCard />

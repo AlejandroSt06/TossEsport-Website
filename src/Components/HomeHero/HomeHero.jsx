@@ -2,8 +2,8 @@ function HomeHero() {
     const heroImagePath = "https://i.pinimg.com/736x/3a/dd/3f/3add3fee70905528c05a37c78b8e982f.jpg"
 
     return (
-        <div className="container col-xxl-8 px-4 py-5 ">
-            <div className="row flex-lg-row-reverse align-items-center g-5 py-5 mt-5">
+        <div className="container col-xxl-8 px-4 py-1 py-lg-5 mb-4">
+            <div className=" row flex-lg-row-reverse align-items-center g-5 py-5 pt-0  home-hero-section">
                 <div className="col-10 col-sm-8 col-lg-6">
                     <img src={heroImagePath} className="home-hero-image d-block mx-lg-auto img-fluid" alt="hero-image" width="900" height="100" loading="lazy" />
                 </div>

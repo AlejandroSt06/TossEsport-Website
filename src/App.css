@@ -15,6 +15,21 @@ body {
   --bs-border-width: 2px;
 
 }
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--back-header);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: 3px solid var(--secondary-color);
+	background: var(--secondary-color);
+}
+
+
 
 .top-header {
   display: flex;
@@ -85,7 +100,8 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 650px;
+padding-top: 20px;
 }
 
 .hero-image {
@@ -128,7 +144,9 @@ h3 {
 
 .card {
 
-  min-width: 270px;
+  min-width: 250px;
+  max-width: 400px;
+
 }
 
 .card-body {
@@ -214,3 +232,43 @@ h3 {
 .form-control-dark:focus {
   border: 1px solid var(--main-text-color);
 }
+.top-header-nav li a{
+
+  color: var(--main-text-color);
+}
+.top-header-nav li a:hover{
+
+  color: #ff643d;
+}
+.header-logo{
+  display: flex;
+  gap: 1rem;
+  padding: 0 10px;
+  padding-top: 3px;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  text-decoration: none
+}
+
+.header-logo img{
+  width: 50px;
+  border-radius: 50% ;
+}
+.header-logo h2{
+  font-size: 24px;
+  margin: 0;
+  padding:0;
+color: var(--secondary-color)
+
+;
+}
+.login-btn{
+border: 2px solid var(--main-text-color);
+color: var(--main-text-color);
+}
+.login-btn:hover{
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  color: var(--back-header);
+  }
