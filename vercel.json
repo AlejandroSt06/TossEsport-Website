@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "routes": [
+        {
+          "src": "/api/(.*)",
+          "dest": "/api/$1"
+        },
+        {
+          "src": "/eventos/(.*)",
+          "dest": "/eventos/$1"
+        },
+        {
+          "src": "/(.*)",
+          "dest": "/index.html"
+        }
+      ]
+  }
+  
