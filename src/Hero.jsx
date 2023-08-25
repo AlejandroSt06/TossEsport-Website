@@ -5,7 +5,7 @@ function Hero(){
 
     return (
 
-<section className="hero-section pt-5 pt-md-0">
+<section className="hero-section pt-5">
 <img className="hero-image mt-5 mt-md-0" src = "/logoShark.png"/>
 <h1 className="hero-title">TossEsports</h1>
 <p className="hero-text mx-2">
