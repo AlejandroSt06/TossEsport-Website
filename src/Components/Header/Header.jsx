@@ -10,7 +10,7 @@ function Header(){
 <header className="position-fixed w-100 z-1 pt-2 py-lg-2 pb-0 text-bg-dark">
     <div className="container">
       <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-<div className='col-0 col-lg-1 ms-3'></div>
+<div className='col-0 col-lg-1 ms-0 ms-lg-3'></div>
     <a href = "/" className='header-logo ms-1 px-4'>
 <img src ={logoImg} ></img>
 <h2>Toss Esports</h2>

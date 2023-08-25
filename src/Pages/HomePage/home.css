@@ -54,14 +54,15 @@ border-color: none;
 
   .home-hero-image,.event-calendar-image{
     border-radius: 10px;
-    height: 350px;
+    max-height: 350px;
     
   }
   @media screen and (max-width:900px) {
     
     .home-hero-image{
       border-radius: 10px;
-      height: 200px;
+      max-height: 210px;
+
       max-width: 300px;
     
     }
