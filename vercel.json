@@ -1,7 +1,20 @@
-
 {
-    "rewrites":  [
-      {"source": "/(.*)", "destination": "/"},
-      {"source": "/eventos", "destination": "/"}
-    ]
+    "routes": [
+      {
+        "src": "/api/(.)",
+        "dest": "/api/$1"
+      },
+      {
+        "src": "/eventos",
+        "dest": "/"
+      },
+      {
+        "src": "/(.)",
+        "dest": "/index.html"
+      }
+    ],
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
+  ]
+
   }
