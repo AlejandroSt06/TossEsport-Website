@@ -10,7 +10,7 @@ function HomePage(){
         <>
         <Header/>
         <HomeHero />
-        <div className='background-dark'>
+        <div className='background-dark px-0 mx-0'>
         <EventCalendar/>
         </div>        </>
     )
