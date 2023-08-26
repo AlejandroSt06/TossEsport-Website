@@ -76,3 +76,7 @@ border-color: none;
     background-color: var(--back-header);
     
   }
+
+  .carousel-item img,.carousel-item-start{
+    border-radius: 10px;
+  }

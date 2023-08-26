@@ -2,7 +2,7 @@ function OurTeam() {
     const member = "./logoShark.png"
 
     return (
-        <div class="container marketing">
+        <div class="container marketing mb-5 pb-5">
 <h2 className="text-center my-0 mt-md-0">Our Team</h2>
         <div class="row my-5 py-3 py-md-1">
           <div class="col-lg-4 justify-content-center text-center mb-3">
