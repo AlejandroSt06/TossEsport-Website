@@ -57,7 +57,9 @@ border-color: none;
    
     
   }
-
+.carousel{
+  width: 75%;
+}
   @media screen and (max-width:900px) {
     
     .home-hero-image{
@@ -66,7 +68,9 @@ border-color: none;
       max-width: 300px;
     
     }
-
+.carousel{
+  width: 100%;
+}
   }
   .home-hero-section{
 
@@ -79,4 +83,22 @@ border-color: none;
 
   .carousel-item img,.carousel-item-start{
     border-radius: 10px;
+  }
+
+  .countdown{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:2.5rem
+  }
+  .countdown div{
+max-width: 75px;
+min-width: 75px;
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    padding: 8px;
+    font-family: 'Koulen', cursive;
+    display: flex;
+    flex-direction: column;
   }

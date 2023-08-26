@@ -3,7 +3,7 @@ const image1 = "https://picsum.photos/1300/500"
 const image2 = "https://picsum.photos/1301/500"
 const image3 = "https://picsum.photos/1302/500"
     return(
-<div className="container pb-5 w-75">
+<div className="container pb-5 d-flex align-items-center flex-column ">
 <h2 className = "text-center mb-5">Eventos Recientes</h2>
 <div id="carouselExampleCaptions" class="carousel slide pb-5 mb-5">
   <div class="carousel-indicators">
