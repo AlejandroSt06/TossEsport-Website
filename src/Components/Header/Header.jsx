@@ -30,10 +30,9 @@ function Header(){
           <li><a href="#" className="nav-link px-2 text-secondary">About</a></li>
         </ul>
         <div className='col-0 col-lg-auto'></div>
-        <form className="col-12 d-none d-xxl-flex  col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        {/* <form className="col-12 d-none d-xxl-flex  col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search"> */}
 <Search></Search>
-         
-        </form>
+       
 
         <div className="text-end col-lg-auto d-none d-lg-flex">
           <button type="button" className="btn login-btn me-2">Login</button>
