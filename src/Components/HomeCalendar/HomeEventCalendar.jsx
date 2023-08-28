@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CountDown from "../Components/CountDown/CountDown"
+import CountDown from "../CountDown/CountDown"
 // Countdown Component
 class Countdown extends Component {
   constructor(props) {
