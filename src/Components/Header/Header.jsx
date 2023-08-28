@@ -25,13 +25,15 @@ function Header(){
         <ul className=" nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 top-header-nav">
           <li><a href="/" className="nav-link px-2 ">Home</a></li>
           <li><a href="/eventos" className="nav-link px-2 ">Eventos</a></li>
-          <li><a href="#" className="nav-link px-2 text-secondary">Pricing</a></li>
+          <li><a href="/contacto" className="nav-link px-2">Contacto</a></li>
           <li><a href="#" className="nav-link px-2 text-secondary">FAQs</a></li>
           <li><a href="#" className="nav-link px-2 text-secondary">About</a></li>
         </ul>
         <div className='col-0 col-lg-auto'></div>
-        {/* <form className="col-12 d-none d-xxl-flex  col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search"> */}
+         <form className="col-12 d-none d-xxl-flex  col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+
 <Search></Search>
+</form>
        
 
         <div className="text-end col-lg-auto d-none d-lg-flex">

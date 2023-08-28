@@ -1,3 +1,4 @@
+import "./Carousel.css"
 function Carousel(){
 const image1 = "https://picsum.photos/1300/500"
 const image2 = "https://picsum.photos/1301/500"
@@ -7,7 +8,7 @@ const image3 = "https://picsum.photos/1302/500"
 <h2 className = "text-center mb-5">Eventos Recientes</h2>
 <div id="carouselExampleCaptions" class="carousel slide pb-5 mb-5">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions"  class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>

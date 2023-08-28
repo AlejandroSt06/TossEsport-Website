@@ -16,7 +16,7 @@ function Search() {
   }, []);
 
   return (
-    <div className="gcse-searchbox form-control form-control-dark"></div>
+    <input className="gcse-searchbox form-control form-control-dark"></input>
   );
 }
 
