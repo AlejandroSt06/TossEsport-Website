@@ -11,7 +11,7 @@
       {
         "src": "/contacto",
         "dest": "/"
-      }
+      },
       {
         "src": "/(.)",
         "dest": "/index.html"
