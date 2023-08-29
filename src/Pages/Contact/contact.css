@@ -1,61 +1,110 @@
+:root {
+  --bg-color: #424954;
+  ;
+  --back-header: #212326;
+}
 
-.contact-sub-button{
+.contact-sub-button {
 
-    padding: 0.5em 2em;
-    border: 2px solid var(--secondary-color);
-    border-radius: 5px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-    transition: all 500ms;
-    font-size: 18px;
-    position: relative;
-    overflow: hidden;
-    outline: 2px solid var(--secondary-color);
-    background-color: transparent;
-    max-width: 250px;
-    margin: 0 0;
+  padding: 0.5em 2em;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  transition: all 500ms;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid var(--secondary-color);
+  background-color: transparent;
+  max-width: 250px;
+  margin: 0 0;
 }
 
 .contact-sub-button:hover:hover {
-    color: #ffffff;
-    transform: scale(1.05);
-    outline: 2px solid var(--secondary-color);
-    box-shadow: 2px 3px 10px -2px var(--secondary-color);
-  }
-  .contact-sub-button:active{
-border-color: none;
-  }
-  .contact-sub-button::before {
-    content: "";
-    position: absolute;
-    left: -50px;
-    top: 0;
-    width: 0;
-    height: 100%;
-    background-color: var(--secondary-color);
-    transform: skewX(45deg);
-    z-index: -1;
-    transition: width 500ms;
-  }
-  
-  .contact-sub-button:hover::before {
-    width: 200%;
-  }
-.form-control{
-    max-width: 200px;
-    min-width: 50%;
-    align-self: center;
+  color: #ffffff;
+  transform: scale(1.05);
+  outline: 2px solid var(--secondary-color);
+  box-shadow: 2px 3px 10px -2px var(--secondary-color);
+}
+
+.contact-sub-button:active {
+  border-color: none;
+}
+
+.contact-sub-button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--secondary-color);
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 500ms;
+}
+
+.contact-sub-button:hover::before {
+  width: 200%;
+}
+
+.form-control {
+
+  min-width: 100%;
+  align-self: center;
 }
 
 @media screen and (max-width:1050px) {
-    .form-control{
-        max-width: 500px;
-        min-width: 100%;
-        align-self: center;
-    }
-    .contact-sub-button{
-        margin: 0 5px;
-    }
+  .form-control {
+    max-width: 100px;
+    width: 70%;
+    align-self: center;
+  }
+
+  .contact-sub-button {
+    margin: 0 5px;
+  }
+}
+
+.contact-card {
+
+  background-color: var(--bg-color);
+  padding-right: 1rem;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 0;
+  max-width: 90%;
+  height: 700px;
+  transform: scaleY(0.85);
+}
+
+.contact-image {
+  filter: grayscale(40%);
+  transform: scale(1.1);
+
+  height: 100%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+.image-container {
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  padding: 0;
+
+}
+
+.contact-h4 {
+  font-size: 44px;
+  margin-top: 10px;
+  font-family: 'Koulen', cursive;
+  color: var(--secondary-color);
+}
+.text-body-secondary-contact{
+  color: var(--back-header);
 }

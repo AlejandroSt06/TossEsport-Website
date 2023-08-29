@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer"
 import "./contact.css"
 function Contact(){
   const sectionImage = "https://i.pinimg.com/736x/3a/dd/3f/3add3fee70905528c05a37c78b8e982f.jpg";
@@ -7,19 +8,19 @@ function Contact(){
     <>
     <Header/>
     <div className='background-dark px-0 mx-0 '>
-    <div class="container">
-  <main className="py-1 mt-1 row">
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+  <main className="py-0  row contact-card ">
 
-    <div class="row g-5 me-0 py-5 px-lg-5">
+    <div class="row g-5 me-0 py-0 px-lg-0 col d-flex justify-content-center">
 
-      <div class=" col-md-7 col-lg-8 mx-lg-5">
-        <h4 class="mb-3">Contactanos!</h4>
+      <div class=" col-md-12 col-lg-8  my-0">
+        <h4 className="mb-5 contact-h4">Contactanos!</h4>
         <form class="needs-validation" novalidate="">
         
           <div class="row g-3">
             <div class="col-12">
               <label for="firstName" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" />
+              <input type="text" class="form-control" id="firstName" placeholder=""  required="" />
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
@@ -30,7 +31,7 @@ function Contact(){
 
 
             <div class="col-12 justify-content-center">
-              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+              <label for="email" class="form-label">Email <span class="text-body-secondary-contact">(Optional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="you@example.com" />
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
@@ -55,24 +56,19 @@ function Contact(){
           <button class="w-100 btn-lg my-5 contact-sub-button" type="submit">Enter</button>
         </form>
       </div>
-      <div className="col-12">dasds</div>
+    
     </div>
-   
+    <div className="col  image-container d-none d-lg-block"><img className=" contact-image" src ={sectionImage}></img></div>
   </main>
 <div>
 
 
 </div>
-  <footer class="my-5 pt-5 text-body-secondary text-center text-small">
-    <p class="mb-1">© 2017–2023 Company Name</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
-    </ul>
-  </footer>
+
 </div>
+
     </div>
+    <Footer></Footer>
     </>
     )
 }
